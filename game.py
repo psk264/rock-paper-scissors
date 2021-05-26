@@ -10,5 +10,5 @@ player_name = input("Enter your name: ")
 print("Welcome, ", player_name, "! Get ready to play Rock-Paper-Scissors.")
 
 user_choice = input("Please chose one of 'rock', 'paper', 'scissors': ")
-print(player_name,"'s choice:", user_choice)
 
+print(player_name,"'s choice:", user_choice)
