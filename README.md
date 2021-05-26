@@ -26,5 +26,5 @@ commit 3 - validate user input
 commit 4 - random choice for player 2 - computer
 * _step 17: user a random module to use choice function in random module.  User import statement to import random._
 * _step 18: Use list to store valid option_
-* _step 15: commit the changes to github_
-* _step 16: push the changes to origin so its uploaded on the remote repository_
+* _step 19: commit the changes to github_
+* _step 20: push the changes to origin so its uploaded on the remote repository_
