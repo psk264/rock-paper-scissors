@@ -17,3 +17,8 @@ commit 2 - capture user input
 * _step 11: using command line, run python game.py to ensure its working successfully_
 * _step 12: commit the changes to github_
 * _step 13: push the changes to origin so its uploaded on the remote repository_
+
+commit 3 - validate user input
+* _step 14: create conditional statement block to check for valid input using if-else statement_
+* _step 15: commit the changes to github_
+* _step 16: push the changes to origin so its uploaded on the remote repository_
