@@ -26,8 +26,26 @@ computer_choice = random.choice(valid_options)
 print("Computer's choice:", computer_choice)
 
 #Game Logic
-if(user_choice == "rock") or (user_choice == "paper") or (user_choice == "scissors"):
-    print("VALID.KEEP GOING")
+if(user_choice in valid_options):
+    # print("VALID.KEEP GOING")
+    if(user_choice == computer_choice):
+        print("Its a tie!")
+    elif(user_choice == "rock"):
+        if(computer_choice == "scissors"):
+                print(player_name, "wins!")
+        elif(computer_choice == "paper"):
+                print("Oh, the computer won. It's ok.")
+    elif(user_choice == "paper"):
+        if(computer_choice == "rock"):
+                print(player_name, "wins!")
+        elif(computer_choice == "scissors"):
+                print("Oh, the computer won. It's ok.")
+    elif(user_choice == "scissors"):
+        if(computer_choice == "paper"):
+                print(player_name, "wins!")
+        elif(computer_choice == "rock"):
+                print("Oh, the computer won. It's ok.")
+    print("Thanks for playing. Please play again!")
 else:
     print("Oops, invalid input. Accepted values:'rock', 'paper', 'scissors'. You entered '",user_choice,"'")
     print("THIS IS THE END OF OUR GAME. PLEASE TRY AGAIN.")
