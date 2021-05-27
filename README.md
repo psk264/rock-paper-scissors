@@ -28,3 +28,8 @@ commit 4 - random choice for player 2 - computer
 * _step 18: Use list to store valid option_
 * _step 19: commit the changes to github_
 * _step 20: push the changes to origin so its uploaded on the remote repository_
+
+commit 5 - game logic using if- elif
+* _step 21: Added the game logic using if - elseif block_
+* _step 22: commit the changes to github_
+* _step 23: push the changes to origin so its uploaded on the remote repository_
