@@ -2,18 +2,31 @@
 
 #import modules to use additional modules
 import random
+import os
+import dotenv
 
 #Input command variation, using print and input 
 # print("Enter your name: ")
 # player_name = input()
 
 #Above statements can be reduced to single line of code
-player_name = input("Enter your name: ")
+#Option 1:
+# player_name = input("Enter your name: ")
+
+#Option 2: Fetching player name from command line (package needed: os)
+# PLAYER_NAME = os.getenv("PLAYER_NAME")
+# print(PLAYER_NAME)
+# player_name = PLAYER_NAME
+
+#Option 3:Fetching player name from environment variable (package needed: dotenv)
+dotenv.load_dotenv()
+player_name = os.getenv("PLAYER_NAME")
+
 
 #User Choice:
 print("Welcome, ", player_name, "! Get ready to play Rock-Paper-Scissors.")
 user_choice = input("Please chose one of 'rock', 'paper', 'scissors': ")
-print(player_name,"'s choice:", user_choice)
+print(player_name+"'s choice:", user_choice)
 
 #Computer Choice:
 # one way to write the choice statement is to enter the list in the argument
