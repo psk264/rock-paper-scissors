@@ -38,8 +38,8 @@ computer_choice = random.choice(valid_options)
 
 print("Computer's choice:", computer_choice)
 
-#Game Logic
 #********************************************************************
+#Game Logic Approach 1
 #This can be improved by removing duplicate checks and improved readability
 #********************************************************************
 # if(user_choice in valid_options): 
@@ -62,6 +62,8 @@ print("Computer's choice:", computer_choice)
 #                 print("Oh, the computer won. It's ok.")
 #     print("Thanks for playing. Please play again!")
 
+#********************************************************************
+#Game Logic Approach 2
 #********************************************************************
 if(user_choice in valid_options): 
     if(user_choice == computer_choice):
