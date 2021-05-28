@@ -2,8 +2,10 @@
 Assignment 1 - rock paper scissors exercise
 
 ## Objective
-This repo holds the code for the game of rock-paper-scissors :black_circle:-:paper_facing_up:-:scissors:.  Wanna play? Please continue reading :) 
+This repo holds the code for the game of rock-paper-scissors :black_circle: x :paper_facing_up: x :scissors:.  Wanna play? Please continue reading :) 
+
 ## Set up
+
 
 ## Execution
 
