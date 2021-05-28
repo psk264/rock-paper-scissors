@@ -1,6 +1,6 @@
 # game.py
 
-#import modules to use additional modules
+#import modules to use additional third party packages 
 import random
 import os
 import dotenv
@@ -13,7 +13,7 @@ import dotenv
 #Option 1:
 # player_name = input("Enter your name: ")
 
-#Option 2: Fetching player name from command line (package needed: os)
+#Option 2: Fetching player name from command line using env (package needed: os)
 # PLAYER_NAME = os.getenv("PLAYER_NAME")
 # print(PLAYER_NAME)
 # player_name = PLAYER_NAME

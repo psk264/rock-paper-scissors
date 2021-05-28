@@ -1,6 +1,15 @@
 # rock-paper-scissors-exercise
 Assignment 1 - rock paper scissors exercise
 
+## Objective
+This repo holds the code for the game of rock-paper-scissors :black_circle:-:paper_facing_up:-:scissors:.  Wanna play? Please continue reading :) 
+## Set up
+
+## Execution
+
+
+## Details of how this repo came to be 
+(**Note - I understand this should not be part of readme but I wanted to document the steps when we did this exercise during class for future referenc**)
 commit 1 - setup repo
 * _step 1: Create repo on github_
 * _step 2: Clone it locally_
