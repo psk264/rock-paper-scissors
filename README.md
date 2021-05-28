@@ -6,7 +6,7 @@ This repo holds the code for the game of rock-paper-scissors :black_circle: x :p
 
 ## Instructions
 1. Use git client to clone or download this remote repository, [rock-paper-scissors-exercise](https://github.com/psk264/rock-paper-scissors-exercise), on your local machine.  Note the location where it is cloned or downloaded
-2. Use command line application to navigate to the location where this repository was cloned or downloaded.  Ensure that ``<base>`` from conda initialization is shown on cmd line.  If "<\base>" is not shown then, before proceeding, run command:<br/>
+2. Use command line application to navigate to the location where this repository was cloned or downloaded.  Ensure that ``<base>`` from conda initialization is shown on cmd line.  If ``<base>`` is not shown then, before proceeding, run command:<br/>
 ```conda init bash```
 3. Since this code uses specific packages like python-dotenv, it is recommended to create a new project specific anaconda virtual environment using following command:<br/>
 ``` conda create -n rpc-game-env python=3.8```
@@ -14,9 +14,10 @@ This repo holds the code for the game of rock-paper-scissors :black_circle: x :p
 ```conda activate rpc-game-env```
 5. After virtual environment is active i.e. ``<rpc-game-env>`` is shown on command-line, then install the third-party package python-dotenv on this virtual environment using command:<br/>
  ```pip install -r requirement.txt```<br/>
-**Note:** The requirements.txt file is already provided in the repository.
+**NOTE:** The requirements.txt file is already provided in the repository.
 6. After the setup is complete, execute and start the game using command:<br/>
-```python game.py```
+```python game.py``` <br/>
+**NOTE:** Depending on which approach is commented out on the game.py, the script will either ask for player name on command line or read "Jane Doe" from .env file. Details about different approaches are listed below. 
 
 ## Additional Information
 * The game.py code file demostrate 3 different approaches to get player name
@@ -27,9 +28,10 @@ This repo holds the code for the game of rock-paper-scissors :black_circle: x :p
   1. Seperate if-elif blocks
   2. Single if-elif-else block 
 
+## END OF README 
 
-## Details of how this repo came to be 
 (**Note - I understand this should not be part of readme but I wanted to document the steps when we did this exercise during class for future referenc**)
+### This block can be ignored: Details of how this repo came to be 
 commit 1 - setup repo
 * _step 1: Create repo on github_
 * _step 2: Clone it locally_
