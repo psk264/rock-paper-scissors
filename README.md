@@ -6,17 +6,17 @@ This repo holds the code for the game of rock-paper-scissors :black_circle: x :p
 
 ## Instructions
 1. Use git client to clone or download this remote repository, [rock-paper-scissors-exercise](https://github.com/psk264/rock-paper-scissors-exercise), on your local machine.  Note the location where it is cloned or downloaded
-2. Use command line application to navigate to the location where this repository was cloned or downloaded.  Ensure that <\base> from conda initialization is shown on cmd line.  If "<\base>" is not shown then, before proceeding, run command:
-\\ ```conda init bash```
-3. Since this code uses specific packages like python-dotenv, it is recommended to create a new project specific anaconda virtual environment using following command:
-\\``` conda create -n rpc-game-env python=3.8```
-4. Activate the Anaconda environment "rpc-game-env" using the command:
-\\```conda activate rpc-game-env```
-5. After virtual environment is active i.e. <\rpc-game-env> is shown on command-line, then install the third-party package python-dotenv on this virtual environment using command:
-\\ ```pip install -r requirement.txt```
-\\**Note:** The requirements.txt file is already provided in the repository.
-6. After the setup is complete, execute and start the game using command:
-\\```python game.py```
+2. Use command line application to navigate to the location where this repository was cloned or downloaded.  Ensure that ``<base>`` from conda initialization is shown on cmd line.  If "<\base>" is not shown then, before proceeding, run command:<br/>
+```conda init bash```
+3. Since this code uses specific packages like python-dotenv, it is recommended to create a new project specific anaconda virtual environment using following command:<br/>
+``` conda create -n rpc-game-env python=3.8```
+4. Activate the Anaconda environment "rpc-game-env" using the command:<br/>
+```conda activate rpc-game-env```
+5. After virtual environment is active i.e. ``<rpc-game-env>`` is shown on command-line, then install the third-party package python-dotenv on this virtual environment using command:<br/>
+ ```pip install -r requirement.txt```<br/>
+**Note:** The requirements.txt file is already provided in the repository.
+6. After the setup is complete, execute and start the game using command:<br/>
+```python game.py```
 
 ## Additional Information
 * The game.py code file demostrate 3 different approaches to get player name
