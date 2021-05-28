@@ -25,7 +25,7 @@ player_name = os.getenv("PLAYER_NAME")
 
 #User Choice:
 print("Welcome, ", player_name, "! Get ready to play Rock-Paper-Scissors.")
-user_choice = input("Please chose one of 'rock', 'paper', 'scissors': ")
+user_choice = input("Please choose one of 'rock', 'paper', 'scissors': ")
 print(player_name+"'s choice:", user_choice)
 
 #Computer Choice:
@@ -35,8 +35,7 @@ print(player_name+"'s choice:", user_choice)
 #another way to write choice statement using list
 valid_options = ["rock","paper","scissors"]
 computer_choice = random.choice(valid_options) 
-
-print("Computer's choice:", computer_choice)
+# print("Computer's choice:", computer_choice)
 
 #********************************************************************
 #Game Logic Approach 1
@@ -66,10 +65,11 @@ print("Computer's choice:", computer_choice)
 #Game Logic Approach 2
 #********************************************************************
 if(user_choice in valid_options): 
+    print("Computer's choice:", computer_choice)
     if(user_choice == computer_choice):
         print("Its a tie!")
     elif(user_choice == "rock" and computer_choice == "scissors") or (user_choice == "paper" and computer_choice == "rock") or (user_choice == "scissors" and computer_choice == "paper"):
-        print(player_name, "won!")
+        print(f"{player_name} won! {user_choice} beats {computer_choice}")
     else:    
         print("Oh, the computer won. It's ok.")
     print("Thanks for playing. Please play again!")
