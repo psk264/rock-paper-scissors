@@ -34,7 +34,7 @@ There are 2 ways to play this game!  To play using command line please use the s
 
 ## END OF README 
 
-(**Note - I understand this should not be part of readme but I wanted to document the steps when we did this exercise during class for future referenc**)
+(**Note to Professor - I understand this should not be part of readme but I wanted to document the steps when we did this exercise during class for future referenc**)
 ### This block can be ignored: Details of how this repo came to be 
 commit 1 - setup repo
 * _step 1: Create repo on github_
