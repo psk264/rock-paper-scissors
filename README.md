@@ -2,8 +2,10 @@
 Assignment 1 - rock paper scissors exercise
 
 ## Objective
-This repo holds the code for the game of rock-paper-scissors :black_circle: x :page_facing_up: x :scissors:.  **Wanna play?** Please continue reading :) 
-There are 2 ways to play this game!  To play using command line please use the script file **_game.py_** and to play using GUI use the script file **_game-with-gui.py_** in following instructions. 
+This repo holds the code for the game of rock-paper-scissors :black_circle: x :page_facing_up: x :scissors:.  
+**Wanna play?** Please continue reading :) 
+
+There are 2 ways to play this game!  To play using command line please use the script file [**_game.py_**](https://github.com/psk264/rock-paper-scissors-exercise/blob/main/game.py) and to play using GUI use the script file [**_game-with-gui.py_**](https://github.com/psk264/rock-paper-scissors-exercise/blob/main/game-with-gui.py) in following instructions. 
 
 ## Instructions
 1. Use git client to clone or download this remote repository, [rock-paper-scissors-exercise](https://github.com/psk264/rock-paper-scissors-exercise), on your local machine.  Note the location where it is cloned or downloaded
