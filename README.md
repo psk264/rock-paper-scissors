@@ -16,7 +16,7 @@ There are 2 ways to play this game!  To play using command line please use the s
 4. Activate the Anaconda environment "rpc-game-env" using the command:<br/>
 ```conda activate rpc-game-env```
 5. After virtual environment is active i.e. ``<rpc-game-env>`` is shown on command-line, then install the third-party package python-dotenv on this virtual environment using command:<br/>
- ```pip install -r requirement.txt```<br/>
+ ```pip install -r requirements.txt```<br/>
 **NOTE:** The requirements.txt file is already provided in the repository.
 6. After the setup is complete, execute and start the game using command:<br/>
 ```python game.py``` <br/>
