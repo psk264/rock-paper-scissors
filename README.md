@@ -11,7 +11,7 @@ There are 2 ways to play this game!  To play using command line please use the s
 1. Use git client to clone or download this remote repository, [rock-paper-scissors-exercise](https://github.com/psk264/rock-paper-scissors-exercise), on your local machine.  Note the location where it is cloned or downloaded
 2. Use command line application to navigate to the location where this repository was cloned or downloaded.  Ensure that ``<base>`` from conda initialization is shown on cmd line.  If ``<base>`` is not shown then, before proceeding, run command:<br/>
 ```conda init bash```
-3. Since this code uses specific packages like python-dotenv, it is recommended to create a new project specific anaconda virtual environment using following command:<br/>
+3. Since this code uses specific packages like python-dotenv, it is recommended to create a new project specific anaconda virtual environment. Here we create virtual environment name "rpc-game-env" using following command.  To create a environment with a different name, simply replace rpc-game-env with desired name:<br/>
 ``` conda create -n rpc-game-env python=3.8```
 4. Activate the Anaconda environment "rpc-game-env" using the command:<br/>
 ```conda activate rpc-game-env```
