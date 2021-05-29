@@ -75,7 +75,7 @@ if(user_choice in valid_options):
     print("Thanks for playing. Please play again!")
 
 else:
-    print("Oops, invalid input. Accepted values:'rock', 'paper', 'scissors'. You entered '",user_choice,"'")
+    print("Oops, invalid input. Accepted values: 'rock', 'paper', 'scissors'. You entered '" + user_choice + "'")
     print("THIS IS THE END OF OUR GAME. PLEASE TRY AGAIN.")
     exit()
 
