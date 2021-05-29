@@ -18,8 +18,10 @@ There are 2 ways to play this game!  To play using command line please use the s
 5. After virtual environment is active i.e. ``<rpc-game-env>`` is shown on command-line, then install the third-party package python-dotenv on this virtual environment using command:<br/>
  ```pip install -r requirements.txt```<br/>
 **NOTE:** The requirements.txt file is already provided in the repository.
-6. After the setup is complete, execute and start the game using command:<br/>
-```python game.py``` <br/>
+6. After the setup is complete, depending on your preference to play using command line or GUI execute and start the game after subsituting the correct .py file in following command:<br/>
+Play using command prompt:  ```python game.py```  <br/>  
+Play using GUI:  ```python game-with-gui.py```  <br/>  
+
 **NOTE:** Depending on which approach is commented out on the game.py, the script will either ask for player name on command line or read "Jane Doe" from .env file. Details about different approaches are listed below. 
 
 ## Additional Information
