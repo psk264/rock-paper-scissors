@@ -1,11 +1,10 @@
 # game-with-gui.py
+# Rock-Paper-Scissors program executed from GUI
 # Adapted from prof-rossetti repository: https://github.com/prof-rossetti/intro-to-python/blob/main/notes/python/packages/pysimplegui.md
 
 #import modules to use additional third party packages 
 import random
-import os
 from PySimpleGUI.PySimpleGUI import OK
-import dotenv
 import PySimpleGUI as sg
 
 

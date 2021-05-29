@@ -1,4 +1,5 @@
 # game.py
+# Rock-Paper-Scissors program executed from command line
 
 #import modules to use additional third party packages 
 import random
