@@ -1,6 +1,12 @@
 # Rock-Paper-Scissors-Exercise
 Assignment 1 - rock paper scissors exercise
 
+## Prerequisite
+* Anaconda 3.7+
+* Python 3.7+
+* Pip
+* Git Bash
+
 ## Objective
 This repo holds the code for the game of rock-paper-scissors :black_circle: x :page_facing_up: x :scissors:.  
 **Wanna play?** Please continue reading :) 
