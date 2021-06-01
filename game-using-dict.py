@@ -40,26 +40,26 @@ print(player_name+"'s choice:", user_choice)
 valid_options = ["rock","paper","scissors"]
 computer_choice = random.choice(valid_options) 
 # print("Computer's choice:", computer_choice)
-
 winners = {
     "rock": {
         "rock": None,
         "paper": "paper",
-        "scissors": "scissors"
+        "scissors": "rock",
     },
     "paper": {
-        "rock": "rock",
+        "rock": "paper",
         "paper": None,
-        "scissors": "scissors"
+        "scissors": "scissors",
     },
-     "scissors": {
+    "scissors": {
         "rock": "rock",
-        "paper": "paper",
-        "scissors": None
+        "paper": "scissors",
+        "scissors": None,
     }
 }
-
+# breakpoint()
 winner = winners[user_choice][computer_choice]
+# breakpoint()
 if winner == user_choice:
     print(f"{player_name} won! {user_choice} beats {computer_choice}")
 elif winner == computer_choice:
